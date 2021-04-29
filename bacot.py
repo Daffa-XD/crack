@@ -20,12 +20,7 @@ if ("linux" in sys.platform.lower()):
         G = '\033[1;92m'
         O = '\033[1;97m'
         R = '\033[1;91m'
-else:
 
-        N = ''
-        G = ''
-        O = ''
-        R = ''
 def banner():
 	print("""
 \033[0;92m                                          
@@ -36,7 +31,8 @@ def banner():
      #       #   #   ####### #       #  #   
      #     # #    #  #     # #     # #   #  
       #####  #     # #     #  #####  #    # 
-      \033[1;32m * \033[1;33mCODE \033[1;35mBY\033[1;37m DAFFA XD\033[1;36m   My facebook.com/AKUN.N00B \033[1;32m*  \033[1;37m
+      \033[1;32m * \033[1;33mCODE \033[1;35mBY\033[1;37m DAFFA XD\033[1;36m 
+      https://facebook.com/AKUN.N00B \033[1;32m*  \033[1;37m
     -----------------------------------------\n""")
 
 host="https://mbasic.facebook.com"
