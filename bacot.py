@@ -6,7 +6,7 @@ sys.setdefaultencoding("utf-8")
 from multiprocessing.pool import ThreadPool
 
 #### WARNA RANDOM ####
-# P = '\033[0;97m'  # putih
+# P = '\033[0;97m' # putih
 # M = '\033[0;91m' # merah
 # H = '\033[0;92m' # hijau
 # K = '\033[0;93m' # kuning
@@ -16,7 +16,7 @@ from multiprocessing.pool import ThreadPool
 
 if ("linux" in sys.platform.lower()):
 
-        N = '\033[0m'
+        N = '\033[1;94m'
         G = '\033[1;92m'
         O = '\033[1;97m'
         R = '\033[1;91m'
@@ -28,10 +28,14 @@ else:
         R = ''
 def banner():
 	print("""
-\033[0;96m    __       ___  __       
-          |__/ /  \ |\ |  |  /  \ |    
-          |  \ \__/ | \|  |  \__/ |___
-         \033[1;32m      CODE BY Daffa Xd \n      https://facebook.com/AKUN.N00B\033[1;37m
+\033[0;92m                                          #####  ######     #     #####  #    # 
+     #     # #     #   # #   #     # #   #  
+     #       #     #  #   #  #       #  #   
+     #       ######  #     # #       ###    
+     #       #   #   ####### #       #  #   
+     #     # #    #  #     # #     # #   #  
+      #####  #     # #     #  #####  #    # 
+      \033[1;32m * \033[1;33mCODE \033[1;35mBY\033[1;37m DAFFA XD\033[1;36m   My facebook.com/AKUN.N00B \033[1;32m*  \033[1;37m
     -----------------------------------------\n""")
 
 host="https://mbasic.facebook.com"
